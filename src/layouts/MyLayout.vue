@@ -1,5 +1,6 @@
 <template>
-    <q-layout view="lHh Lpr lff">
+    <q-layout view="lHh Lpr lff" class="bg-primary">
+
       <q-header reveal elevated class="bg-primary glossy">
         <q-toolbar>
           <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
@@ -63,7 +64,7 @@
       </q-drawer>
 
       <q-page-container>
-        <router-view />
+            <router-view />
       </q-page-container>
     </q-layout>
 </template>
